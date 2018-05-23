@@ -1,4 +1,4 @@
-;6 Well plate, 5 lines, 4 layers
+;6 Well plate, 5 lines, 1layers
 T0 ; select left extruder for this print
 G92 E0 ; set position of extruder
 ;First line
