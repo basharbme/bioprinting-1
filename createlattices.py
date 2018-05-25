@@ -93,5 +93,5 @@ for layer in range(layers):         #Loop through different layers
                         .format(xright,yinit-(1+line)*deltax2,layer*layspace,0.3+line*0.2))
                 f.write('G2 X{:0.2f} Y{:0.2f} Z{:0.2f} J{:0.2f} E{:0.1f} ;print CW arc\n'
                         .format(xright,yinit-(2+line)*deltax2,layer*layspace,-r2,0.4+line*0.2))
-                
+    f.write('G1 Z{:0.2f} ;move up to next level'.format((layer+1)*layspace))
 f.close()

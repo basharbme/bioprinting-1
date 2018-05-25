@@ -14,7 +14,7 @@ G2 X5.00 Y7.50 Z0.00 I2.50 E0.6 ;print CW arc
 G1 X5.00 Y-7.50 Z0.00 E0.7 ;print next line
 G3 X10.00 Y-7.50 Z0.00 I2.50 E0.8 ;print CCW arc
 G1 X10.00 Y10.00 Z0.00 E0.9 ;print last line
-
+G1 Z1.00 ;move up to next level
 ;Layer 2
 ;First line
 G1 X-10.00 Y10.00 Z1.00 F300 ;move to starting location
@@ -27,3 +27,4 @@ G2 X7.50 Y-5.00 Z1.00 J-2.50 E0.6 ;print CW arc
 G1 X-7.50 Y-5.00 Z1.00 E0.7 ;print next line
 G3 X-7.50 Y-10.00 Z1.00 J-2.50 E0.8 ;print CCW arc
 G1 X10.00 Y-10.00 Z1.00 E0.9 ;print last line
+G1 Z2.00 ;move up to next level
