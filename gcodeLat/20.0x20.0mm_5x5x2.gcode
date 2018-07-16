@@ -1,4 +1,4 @@
-20.0x20.0mm, 5x5 lines, 2 layers
+;20.0x20.0mm, 5x5 lines, 2 layers
 T0 ;select left extruder for this print
 G92 E0 ;reset extruder to 0
 
