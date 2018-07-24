@@ -2,10 +2,10 @@
 """
 Initialize parameters
 """
-x1 = 15                             #Size in x direction [mm]
-x2 = 15                              #Size in y direction [mm]
-n1 = 5                             #Number of grid lines in x direction
-n2 = 5                              #Number of grid lines in y direction
+x1 = 7.5                             #Size in x direction [mm]
+x2 = 7.5                              #Size in y direction [mm]
+n1 = 3                             #Number of grid lines in x direction
+n2 = 3                              #Number of grid lines in y direction
 
 layers = 2                          #Number of layers
 layspace = 0.4                        #Distance between layers [mm]
