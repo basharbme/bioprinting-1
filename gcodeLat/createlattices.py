@@ -32,17 +32,19 @@ else:
 f = open('{:.1f}x{:.1f}mm_{}x{}x{}.{}.gcode'
          .format(x1, x2, n1, n2, layers,mats), 'w')
 
-header = (';{:.1f}x{:.1f}mm, {}x{} lines, {} layers'
-          .format(x1, x2, n1, n2, layers),
-          'T0 ;select left extruder for this print',
-          'G92 E0 ;reset extruder to 0\n')
-f.write('\n'.join(header))          #Write first few lines
+
 
 for layer in range(layers):         #Loop through different layers
     xinit = -x1/2                   #X starting location
     yinit = -x2/2*(-1)**layer       #Y starting location
     zlayer = layer*layspace         #Z Height for each layer
     oline = 0                       #Resets outside lines index to 0
+    
+    header = (';{:.1f}x{:.1f}mm, {}x{} lines, {} layers'
+          .format(x1, x2, n1, n2, layers),
+          'T0 ;select left extruder for this print',
+          'G92 E0 ;reset extruder to 0\n')
+    f.write('\n'.join(header))          #Write first few lines
     f.write('\n;Layer {}\n'.format(layer+1))
     f.write(';First line\n')
     f.write('G1 X{:0.2f} Y{:0.2f} Z{:0.2f} F{} ;move to starting location\n'
@@ -184,7 +186,7 @@ for layer in range(layers):         #Loop through different layers
         else:                           #If layer 2,4,6,...
             xright = xinit + x1 - r2
             xleft = xinit + r2
-            f.write('G1 X{:0.2f} Y{:0.2f} Z{:0.2f} E0.1 ;print first line\n '
+            f.write('G1 X{:0.2f} Y{:0.2f} Z{:0.2f} E0.1 ;print first line\n'
                     .format(xright, yinit+yoff, zlayer))
             f.write('G2 X{:0.2f} Y{:0.2f} Z{:0.2f} J{:0.2f} E0.2 '
                     .format(xright, yinit-deltax2+yoff, zlayer, -r2-yoff) +

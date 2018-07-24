@@ -44,6 +44,9 @@ G3 X8.10 Y-5.62 Z0.00 I2.48 E0.8 ;print CCW arc
 G1 X8.10 Y7.50 Z0.00 E0.9 ;print last line
 G1 Z0.40 ;move above scaffold
 G1 Z0.40 ;move up to next level
+;15.0x15.0mm, 5x5 lines, 2 layers
+T0 ;select left extruder for this print
+G92 E0 ;reset extruder to 0
 
 ;Layer 2
 ;First line
@@ -63,7 +66,7 @@ G92 E0 ; set position of extruder
 ;Second Line
 G1 X-7.50 Y8.10 Z0.40 F600 ;move to starting location
 G1 X5.62 Y8.10 Z0.40 E0.1 ;print first line
- G2 X5.62 Y4.35 Z0.40 J-2.48 E0.2 ;print first CW arc
+G2 X5.62 Y4.35 Z0.40 J-2.48 E0.2 ;print first CW arc
 G1 X-5.62 Y3.15 Z0.40 E0.3 ;print next line
 G3 X-5.62 Y0.60 Z0.40 J-1.27 E0.4 ;print CCW arc
 G1 X5.62 Y0.60 Z0.40 E0.5 ;print next line
@@ -77,7 +80,7 @@ G92 E0 ; set position of extruder
 ;Third Line
 G1 X-7.50 Y6.90 Z0.40 F600 ;move to starting location
 G1 X5.62 Y6.90 Z0.40 E0.1 ;print first line
- G2 X5.62 Y3.15 Z0.40 J-1.27 E0.2 ;print first CW arc
+G2 X5.62 Y3.15 Z0.40 J-1.27 E0.2 ;print first CW arc
 G1 X-5.62 Y4.35 Z0.40 E0.3 ;print next line
 G3 X-5.62 Y-0.60 Z0.40 J-2.48 E0.4 ;print CCW arc
 G1 X5.62 Y-0.60 Z0.40 E0.5 ;print next line
