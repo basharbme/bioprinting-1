@@ -220,6 +220,8 @@ for layer in range(layers):         #Loop through different layers
                             .format(xright, yinit-(2+line)*deltax2,
                                     zlayer, -r2-yoff, 0.4+line*0.2) +
                             ';print CW arc\n')
+        f.write('G1 Z{:0.2f} ;move above scaffold\n'   #Go above scaffold
+                .format((layer+1)*layspace))            
         oline = oline + 1    
             
 
