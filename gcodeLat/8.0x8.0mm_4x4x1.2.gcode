@@ -13,7 +13,7 @@ G1 X1.33 Y2.67 Z0.00 E0.5 ;print next line
 G2 X4.00 Y2.67 Z0.00 I1.33 E0.6 ;print CW arc
 G1 X4.00 Y-4.00 Z0.00 E0.7 ;print last line
 
-;T1 ; select right extruder for this print
+T1 ; select right extruder for this print
 G92 E0 ; set position of extruder
 ;Second Line
 G1 X-4.40 Y-4.00 Z0.00 F600 ;move to starting location

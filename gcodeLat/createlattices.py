@@ -131,7 +131,7 @@ for layer in range(layers):         #Loop through different layers
         xoff = MatSpace*(-1)**oline
         yoff = MatSpace*(-1)**oline
         if oline == 0:
-            outsideheader = ('\n;T1 ; select right extruder for this print',
+            outsideheader = ('\nT1 ; select right extruder for this print',
                             'G92 E0 ; set position of extruder',
                             ';Second Line\n')
         elif oline == 1:
