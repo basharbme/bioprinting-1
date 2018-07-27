@@ -9,7 +9,7 @@ n2 = 4                              #Number of grid lines in y direction
 
 layers = 2                          #Number of layers
 layspace = 0.4                        #Distance between layers [mm]
-TwoMats = False                     #One material or two materials
+TwoMats = True                     #One material or two materials
 MatSpace = 0.6                        #Spacing between different materials [mm]
 
 pSpeed = 300                        #Printer speed in [mm/min]
