@@ -27,6 +27,8 @@ G1 X4.60 Y-4.00 Z0.00 E0.7 ;print last line
 G1 Z0.40 ;move above scaffold
 
 G92 E0 ; set position of extruder
+T0
+T1
 ;Third Line
 G1 X-3.40 Y-4.00 Z0.00 F300 ;move to starting location
 G1 X-3.40 Y2.67 Z0.00 E0.1 ;print first line

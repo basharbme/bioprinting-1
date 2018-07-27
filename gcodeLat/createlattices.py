@@ -138,6 +138,7 @@ for layer in range(layers):         #Loop through different layers
                             ';Second Line\n')
         elif oline == 1:
             outsideheader = ('\nG92 E0 ; set position of extruder',
+                             'T0', 'T1',
                             ';Third Line\n')          
         f.write('\n'.join(outsideheader))        #Write header for outer lines
         f.write('G1 X{:0.2f} Y{:0.2f} Z{:0.2f} F{} ;move to starting location\n'
