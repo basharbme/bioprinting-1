@@ -2,12 +2,12 @@
 """
 Initialize parameters
 """
-x1 = 8                             #Size in x direction [mm]
-x2 = 8                              #Size in y direction [mm]
+x1 = 10                             #Size in x direction [mm]
+x2 = 10                              #Size in y direction [mm]
 n1 = 4                            #Number of grid lines in x direction
 n2 = 4                              #Number of grid lines in y direction
 
-layers = 2                          #Number of layers
+layers = 1                          #Number of layers
 layspace = 0.4                        #Distance between layers [mm]
 TwoMats = True                     #One material or two materials
 MatSpace = 0.5                        #Spacing between different materials [mm]
