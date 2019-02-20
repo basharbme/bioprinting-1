@@ -2,9 +2,9 @@
 """
 Initialize parameters
 """
-line_space = 1.0                  # Spacing between filaments [mm]
-z_space = 1.0                       # Spacing between layers [mm]
-needle_dia = 1.0                  # Needle diameter [mm]
+line_space = 0.4                  # Spacing between filaments [mm]
+z_space = 0.6                       # Spacing between layers [mm]
+needle_dia = 0.413                  # Needle diameter [mm]
 
 pSpeed = 300                        # Printer speed in [mm/min]
 
