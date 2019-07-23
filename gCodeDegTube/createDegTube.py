@@ -2,7 +2,7 @@
 """
 Initialize parameters
 """
-line_space = 1.1                  # Spacing between filaments [mm]
+line_space = 1.1                  # Spacing between filament diameters [mm]
 z_space = 0.8                       # Spacing between layers [mm]
 needle_dia = 0.413                  # Needle diameter [mm]
 
