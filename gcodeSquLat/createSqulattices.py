@@ -8,7 +8,7 @@ n1 = 5                              # Number of grid lines in x direction
 n2 = 5                              # Number of grid lines in y direction
 
 layers = 10                          # Number of layers
-layspace = 0.25                      # Distance between layers [mm]
+layspace = 0.35                      # Distance between layers [mm]
 TwoMats = False                     # One material or two materials
 MatSpace = 0.5                      # Spacing between different materials [mm]
 
