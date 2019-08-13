@@ -4,7 +4,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 1
 ;First line
-G1 X-4.00 Y-4.00 Z0.00 F300 ;move to starting location
+G1 X-4.00 Y-4.00 Z0.00 F150 ;move to starting location
 G1 X-4.00 Y4.00 Z0.00 E0.1 ;print first line
 G1 X-2.00 Y4.00 Z0.00 E0.2 ;print first connecting line
 G1 X-2.00 Y-4.00 Z0.00 E0.3 ;print next line
@@ -21,7 +21,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 2
 ;First line
-G1 X-4.00 Y4.00 Z0.25 F300 ;move to starting location
+G1 X-4.00 Y4.00 Z0.25 F150 ;move to starting location
 G1 X4.00 Y4.00 Z0.25 E0.1 ;print first line
  G1 X4.00 Y2.00 Z0.25 E0.2 ;print first connecting line
 G1 X-4.00 Y2.00 Z0.25 E0.3 ;print next line
@@ -38,7 +38,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 3
 ;First line
-G1 X-4.00 Y-4.00 Z0.50 F300 ;move to starting location
+G1 X-4.00 Y-4.00 Z0.50 F150 ;move to starting location
 G1 X-4.00 Y4.00 Z0.50 E0.1 ;print first line
 G1 X-2.00 Y4.00 Z0.50 E0.2 ;print first connecting line
 G1 X-2.00 Y-4.00 Z0.50 E0.3 ;print next line
@@ -55,7 +55,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 4
 ;First line
-G1 X-4.00 Y4.00 Z0.75 F300 ;move to starting location
+G1 X-4.00 Y4.00 Z0.75 F150 ;move to starting location
 G1 X4.00 Y4.00 Z0.75 E0.1 ;print first line
  G1 X4.00 Y2.00 Z0.75 E0.2 ;print first connecting line
 G1 X-4.00 Y2.00 Z0.75 E0.3 ;print next line
@@ -72,7 +72,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 5
 ;First line
-G1 X-4.00 Y-4.00 Z1.00 F300 ;move to starting location
+G1 X-4.00 Y-4.00 Z1.00 F150 ;move to starting location
 G1 X-4.00 Y4.00 Z1.00 E0.1 ;print first line
 G1 X-2.00 Y4.00 Z1.00 E0.2 ;print first connecting line
 G1 X-2.00 Y-4.00 Z1.00 E0.3 ;print next line
@@ -89,7 +89,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 6
 ;First line
-G1 X-4.00 Y4.00 Z1.25 F300 ;move to starting location
+G1 X-4.00 Y4.00 Z1.25 F150 ;move to starting location
 G1 X4.00 Y4.00 Z1.25 E0.1 ;print first line
  G1 X4.00 Y2.00 Z1.25 E0.2 ;print first connecting line
 G1 X-4.00 Y2.00 Z1.25 E0.3 ;print next line
@@ -106,7 +106,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 7
 ;First line
-G1 X-4.00 Y-4.00 Z1.50 F300 ;move to starting location
+G1 X-4.00 Y-4.00 Z1.50 F150 ;move to starting location
 G1 X-4.00 Y4.00 Z1.50 E0.1 ;print first line
 G1 X-2.00 Y4.00 Z1.50 E0.2 ;print first connecting line
 G1 X-2.00 Y-4.00 Z1.50 E0.3 ;print next line
@@ -123,7 +123,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 8
 ;First line
-G1 X-4.00 Y4.00 Z1.75 F300 ;move to starting location
+G1 X-4.00 Y4.00 Z1.75 F150 ;move to starting location
 G1 X4.00 Y4.00 Z1.75 E0.1 ;print first line
  G1 X4.00 Y2.00 Z1.75 E0.2 ;print first connecting line
 G1 X-4.00 Y2.00 Z1.75 E0.3 ;print next line
@@ -140,7 +140,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 9
 ;First line
-G1 X-4.00 Y-4.00 Z2.00 F300 ;move to starting location
+G1 X-4.00 Y-4.00 Z2.00 F150 ;move to starting location
 G1 X-4.00 Y4.00 Z2.00 E0.1 ;print first line
 G1 X-2.00 Y4.00 Z2.00 E0.2 ;print first connecting line
 G1 X-2.00 Y-4.00 Z2.00 E0.3 ;print next line
@@ -157,7 +157,7 @@ G92 E0 ;reset extruder to 0
 
 ;Layer 10
 ;First line
-G1 X-4.00 Y4.00 Z2.25 F300 ;move to starting location
+G1 X-4.00 Y4.00 Z2.25 F150 ;move to starting location
 G1 X4.00 Y4.00 Z2.25 E0.1 ;print first line
  G1 X4.00 Y2.00 Z2.25 E0.2 ;print first connecting line
 G1 X-4.00 Y2.00 Z2.25 E0.3 ;print next line
