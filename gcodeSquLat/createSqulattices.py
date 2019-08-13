@@ -2,17 +2,17 @@
 """
 Initialize parameters
 """
-x1 = 10                             # Size in x direction [mm]
-x2 = 10                              # Size in y direction [mm]
-n1 = 4                              # Number of grid lines in x direction
-n2 = 4                              # Number of grid lines in y direction
+x1 = 8                             # Size in x direction [mm]
+x2 = 8                              # Size in y direction [mm]
+n1 = 5                              # Number of grid lines in x direction
+n2 = 5                              # Number of grid lines in y direction
 
-layers = 4                          # Number of layers
-layspace = 0.6                      # Distance between layers [mm]
+layers = 10                          # Number of layers
+layspace = 0.25                      # Distance between layers [mm]
 TwoMats = False                     # One material or two materials
 MatSpace = 0.5                      # Spacing between different materials [mm]
 
-pSpeed = 150                        # Printer speed in [mm/min]
+pSpeed = 300                        # Printer speed in [mm/min]
 
 
 deltax1 = x1/(n1-1)                 # distance between lines [mm]
