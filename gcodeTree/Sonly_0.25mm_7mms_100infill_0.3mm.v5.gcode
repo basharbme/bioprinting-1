@@ -16,6 +16,7 @@ G1 Z1.0 F500;
 G92 E0
 ; Filament gcode
 
+T1
 ; Filament gcode
 
 G21 ; set units to millimeters

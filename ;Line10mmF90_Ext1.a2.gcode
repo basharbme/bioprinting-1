@@ -1,8 +1,9 @@
-;Line5mmF600_Ext1
+;Line5mmF300_Ext1
 T0 ; Select extruder 1
 G92 E0; Reset position of extruders
+G1 F500
 
-G1 Y-2.5 F600
-G1 Y2.5 E0.1
+G1 Y-5 F90
+G1 Y5 E0.1
 
 G92 E0
